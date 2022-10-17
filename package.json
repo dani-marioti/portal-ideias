@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "portal-ideias",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
@@ -9,6 +9,9 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-navigation/native": "^6.0.13",
+    "@react-navigation/native-stack": "^6.9.1",
+    "@react-navigation/stack": "^6.3.2",
     "expo": "~46.0.16",
     "expo-status-bar": "~1.4.0",
     "react": "18.0.0",
