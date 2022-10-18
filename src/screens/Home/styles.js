@@ -5,7 +5,7 @@ const homeStyle = StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
-    justifyContent: 'center',
+    justifyContent: 'center'
   },
 
   button: {
@@ -15,7 +15,7 @@ const homeStyle = StyleSheet.create({
     borderRadius: 5,
     width: 100,
     height: 30,
-    position: 'absolute',
+    position: "absolute",
     left: 300
   },
   buttonText: {
@@ -26,13 +26,12 @@ const homeStyle = StyleSheet.create({
   },
   button2: {
     padding: 6,
-    backgroundColor: "#40e0d0",
     alignSelf: "center",
     borderRadius: 5,
-    width: 100,
-    height: 30,
-    position: 'absolute',
-    left: 300
+    width: 500,
+    height: 100,
+    left: 370,
+    fontWeight: "bold" 
   }
 
 });

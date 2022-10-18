@@ -2,14 +2,17 @@
 // TouchableOpacity: faz com que uma View responda apropriadamente a toques. Ao ser clicado, a opacidade da View é diminuída, mas de maneira gradual, diminuindo assim a sua intensidade.
 
 import React, { Component } from 'react';
-import { KeyboardAvoidingView, Platform, Image,TouchableOpacity,Text, Button, View, TextInput } from 'react-native';
-import {loginStyle} from '../Login/styles'
+import { KeyboardAvoidingView, Platform, Image, TouchableOpacity, Text, Button, View, TextInput } from 'react-native';
+import { loginStyle } from '../Login/styles'
 
 class Login extends Component {
   goToTasks = () => {
     this.props.navigation.navigate('Tasks')
   }
-  
+  goToForgotPassword = () => {
+    this.props.navigation.navigate('Password')
+  }
+
   render() {
     return (
       <KeyboardAvoidingView behavior={Platform.OS == "android" ? "padding" : "height"} style={[loginStyle.container, loginStyle.darkbg]}>
@@ -27,6 +30,13 @@ class Login extends Component {
           <TouchableOpacity style={loginStyle.login__button}>
             <Text onPress={this.goToTasks} style={loginStyle.login__buttonText}>Entrar</Text>
           </TouchableOpacity>
+          <Text
+            style={loginStyle.login__forgotPassword}
+            variant="link"
+            className="mt-4 full"
+            type="button"
+            onPress={this.goToForgotPassword}>Esqueceu a senha?
+          </Text>
         </View>
       </KeyboardAvoidingView>
     );

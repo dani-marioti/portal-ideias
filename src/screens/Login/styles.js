@@ -7,7 +7,6 @@ const loginStyle = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-
   darkbg: {
     backgroundColor: "#333"
   },
@@ -27,7 +26,7 @@ const loginStyle = StyleSheet.create({
   login__input: {
     backgroundColor: "#fff",
     alignSelf: "center",
-    fontSize: 19,
+    fontSize: 14,
     padding: 7,
     marginBottom: 15,
     width: 320,
@@ -46,6 +45,12 @@ const loginStyle = StyleSheet.create({
     fontWeight: "bold",
     fontSize: 22,
     alignSelf: "center",
+    color: "#FFFFFF"
+  },
+  login__forgotPassword: {
+    padding: 4,
+    alignSelf: "center",
+    fontSize: 14,
     color: "#FFFFFF"
   }
 

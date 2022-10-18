@@ -19,9 +19,13 @@ class Home extends Component {
         <TouchableOpacity style={homeStyle.button}>
           <Text onPress={this.goToIdea} style={homeStyle.buttonText}>Enviar Ideia</Text>
         </TouchableOpacity>
-        <Button
-          className="mt-4 full" type="button" variant="link" onPress={this.goToLogin} title='Entrar'>
-        </Button>
+        <Text
+          style={homeStyle.button2}
+          variant="link"
+          className="mt-4 full"
+          type="button"
+          onPress={this.goToLogin}>Entrar
+        </Text>
       </View>
     );
   }
