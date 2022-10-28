@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Text, Button, View, TouchableOpacity, TextInput, KeyboardAvoidingView } from 'react-native';
+import { Text, View, TouchableOpacity, TextInput } from 'react-native';
 import { ideaStyle } from './styles';
 import apiIdeas, { ideaApi } from '../../services/ideias-api';
 

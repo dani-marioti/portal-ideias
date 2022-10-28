@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Text, Button, View } from 'react-native';
+import { Text, View } from 'react-native';
 
 class Password extends Component {
     render() {

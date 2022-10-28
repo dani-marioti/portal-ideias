@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Image, Text, Button, View, TouchableOpacity } from 'react-native';
+import { Image, Text, View, TouchableOpacity } from 'react-native';
 import { homeStyle } from './styles';
 
 class Home extends Component {

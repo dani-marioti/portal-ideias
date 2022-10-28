@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Image,Text, Button, View } from 'react-native';
+import { Image, View } from 'react-native';
 
 class Tasks extends Component {
     render() {
