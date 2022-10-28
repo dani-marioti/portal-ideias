@@ -27,8 +27,8 @@ class Login extends Component {
         <View style={loginStyle.login__form}>
           <TextInput style={loginStyle.login__input} placeholder='Usuário:' />
           <TextInput style={loginStyle.login__input} placeholder='Senha:' secureTextEntry={true} />
-          <TouchableOpacity style={loginStyle.login__button}>
-            <Text onPress={this.goToTasks} style={loginStyle.login__buttonText}>Entrar</Text>
+          <TouchableOpacity onPress={this.goToTasks} style={loginStyle.login__button}>
+            <Text style={loginStyle.login__buttonText}>Entrar</Text>
           </TouchableOpacity>
           <Text
             style={loginStyle.login__forgotPassword}

@@ -9,14 +9,13 @@ const homeStyle = StyleSheet.create({
   },
 
   button: {
-    padding: 6,
     backgroundColor: "#40e0d0",
-    alignSelf: "center",
+    justifyContent: 'center',
     borderRadius: 5,
     width: 100,
     height: 30,
-    position: "absolute",
-    left: 300
+    margin: 5,
+    // alignSelf: 'flex-end'
   },
   buttonText: {
     fontWeight: "bold",
@@ -26,12 +25,11 @@ const homeStyle = StyleSheet.create({
   },
   button2: {
     padding: 6,
-    alignSelf: "center",
+    // alignSelf: "center",
     borderRadius: 5,
-    width: 500,
-    height: 100,
-    left: 370,
-    fontWeight: "bold" 
+    // left: 370,
+    fontWeight: "bold",
+    textDecorationLine: 'underline'
   }
 
 });
