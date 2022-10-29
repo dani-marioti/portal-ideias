@@ -29,6 +29,8 @@
 
   - Aplicação:
     - `npm install`
+    - `npm start`
+  - Android Studio
     - `expo start --android`
   - Eslint
     - `npx eslint --init`
