@@ -25,8 +25,13 @@
   
 ##Inicializando
 
+  - Aplicação:
   - npm install
-  - expo start --android
+    - expo start --android
+  - Eslint
+    - npx eslint --init
+    - npm run lint
+
 
 ## Exemplos de uso
 
