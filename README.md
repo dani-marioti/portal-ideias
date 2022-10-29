@@ -17,21 +17,22 @@
 
 # Tecnologias utilizadas
 
+## Dependências
+
   - [Expo](https://expo.io/)
   - [Axios](https://github.com/axios/axios)
   - [Node.js (versão 14)](https://nodejs.org/en/)
   - [React Navigation](https://reactnavigation.org/)
   - [ESlint](https://eslint.org/docs/)
   
-##Inicializando
+## Inicializando
 
   - Aplicação:
-  - npm install
-    - expo start --android
+    - `npm install`
+    - `expo start --android`
   - Eslint
-    - npx eslint --init
-    - npm run lint
-
+    - `npx eslint --init`
+    - `npm run lint`
 
 ## Exemplos de uso
 
